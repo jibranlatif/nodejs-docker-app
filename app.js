@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const PORT = 3000;
 
-app.get('/', (req, res) => res.send('Hello from Node.js app!'));
+app.get('/', (req, res) => res.send('Hello Ayan sojayo from Node.js app!'));
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
